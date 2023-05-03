@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "../Kitty_Kapture"
+		},
+		{
+			"name": "kitty-kap-new2",
+			"path": "../kitty-kap-new2"
+		},
+		{
+			"name": "Kitty-kap-new3",
+			"path": "../Kitty-kap-new3"
+		},
+		{
+			"path": "../SendingPhoto"
+		},
+		{
+			"name": "combined-kitty-kap",
+			"path": "../combined-kitty-kap"
+		},
+		{
+			"name": "Lab4",
+			"path": "../Lab4"
+		},
+		{
+			"name": "Lab4 Part A",
+			"path": "../Lab4 Part A"
+		},
+		{
+			"name": "comibned-kitty-direct",
+			"path": "../comibned-kitty-direct"
+		},
+		{
+			"name": "test_with_new_lib",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"utility": "cpp"
+		}
+	}
+}
