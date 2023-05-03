@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kitty-Kapture</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script>
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyDnaYNw6ZWcFHE073cN7cEokM54MVdWAlg",
+        authDomain: "kitty-kam.firebaseapp.com",
+        projectId: "kitty-kam",
+        storageBucket: "kitty-kam.appspot.com",
+        messagingSenderId: "612153113341",
+        appId: "1:612153113341:web:5b70ce99be4ad1a1999c94"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    var storageRef=firebase.storage().ref();
+
+    </script>
+    <script src="app.js"></script>
+
+</head>
+    <body>
+        <p><img id="img"></p> 
+        <p>Uploaded On <span id="information"></span></p>
+    </body>
+</html>
